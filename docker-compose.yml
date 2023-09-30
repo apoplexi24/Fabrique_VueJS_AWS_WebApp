@@ -1,0 +1,40 @@
+version: '3'
+services:
+  frontend:
+    build:
+      context: ./frontend        # Path to the frontend directory
+    ports:
+      - "3000:80"               # Map host port to container port
+    depends_on:
+      - backend                   # Ensure the backend service is started first
+    networks:
+      - mynetwork
+
+  backend:
+    build:
+      context: ./backend           # Path to the backend directory
+    ports:
+      - "5000:5000"               # Map host port to container port
+    depends_on:
+      - mongodb                   # Ensure MongoDB is started first
+    networks:
+      - mynetwork
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/mydatabase  # Connection string to MongoDB
+
+  mongodb:
+    image: mongo:latest            # Official MongoDB Docker image
+    ports:
+      - "27017:27017"             # Map host port to container port
+    volumes:
+      - mongodb-data:/data/db     # Mount a volume for data persistence
+    networks:
+      - mynetwork
+
+networks:
+  mynetwork:
+    driver: bridge
+
+volumes:
+  mongodb-data:
+    name: webapp-mongodb-data
