@@ -36,7 +36,7 @@ spec:
           imagePullPolicy: Always
           ports:
             - containerPort: 5000
-              hostPort: 5001
+              hostPort: 5000
               protocol: TCP
           resources: {}
       restartPolicy: Always
