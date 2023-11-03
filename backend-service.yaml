@@ -6,15 +6,15 @@ metadata:
     kompose.version: 1.31.0 (a04ecdb9e)
   creationTimestamp: null
   labels:
-    io.kompose.service: backend
+    io.kompose.service: cloud-specialization-project-backend
   name: backend
   namespace: default
 spec:
   ports:
-    - name: "5001"
-      port: 5001
+    - name: "5000"
+      port: 5000
       targetPort: 5000
   selector:
-    io.kompose.service: backend
+    io.kompose.service: cloud-specialization-project-backend
 status:
   loadBalancer: {}

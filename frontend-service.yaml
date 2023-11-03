@@ -6,7 +6,7 @@ metadata:
     kompose.version: 1.31.0 (a04ecdb9e)
   creationTimestamp: null
   labels:
-    io.kompose.service: frontend
+    io.kompose.service: cloud-specialization-project-frontend
   name: frontend
   namespace: default
 spec:
@@ -15,6 +15,6 @@ spec:
       port: 3000
       targetPort: 80
   selector:
-    io.kompose.service: frontend
+    io.kompose.service: cloud-specialization-project-frontend
 status:
   loadBalancer: {}
