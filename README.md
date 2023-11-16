@@ -2,6 +2,7 @@
 
 This project showcases the development, containerization, orchestration using Kubernetes, and deployment of a Vue.js shopping web application on AWS cloud.
 
+
 ### Overview
 
 Vue.js Shopping Web App: The project includes a simple yet powerful Vue.js shopping web application. The app allows users to sign in, browse products, add items to the cart, and proceed to checkout.
@@ -12,10 +13,13 @@ Kubernetes Orchestration: Kubernetes is employed to orchestrate the containers. 
 
 AWS Cloud Deployment: The entire solution is designed to be deployed on AWS cloud. Kubernetes clusters are provisioned on AWS using Amazon Elastic Kubernetes Service (EKS), ensuring scalability and reliability.
 
+
 ### Project Structure
 
 i) frontend: Contains the Vue.js frontend for the shopping web application and DockerFiles running Nginx server and Node runtime.
+
 ii) backend: Contains the Javascript files for backend with ExpressJs, Axios and MongoDB schemas. Also contains the DockerFiles running Node runtime.
+
 iii) kubernetes and DockerCompose files in root folder: DockerCompose file to connect and run all dockerfiles at once and Kubernetes files to orchastrate container CRUD actions.
 
 
@@ -31,8 +35,8 @@ AWS CLI and an AWS account for provisioning EKS clusters.
 1. **Clone the Repository:**
 
 ```bash
-git clone https://github.com/yourusername/vuejs-shopping-webapp.git
-cd vuejs-shopping-webapp
+git clone https://github.com/apoplexi24/cloud_specialization_project.git
+cd cloud_specialization_project
 ```
 
 2. **Vue.js App Development**
@@ -61,3 +65,29 @@ kubectl apply -f .
 
 Access the Vue.js shopping web app through the LoadBalancer service created by Kubernetes.
 
+
+### AWS EKS Cluster Setup
+
+1. **Create an EKS Cluster:**
+
+- Use the AWS CLI to create an EKS cluster. Replace placeholder values with your configurations.
+
+```bash
+eksctl create cluster --name your-cluster-name --region your-region --node-type t2.micro --nodes 2
+```
+
+2. **Configure kubectl for EKS:**
+
+- Update your **kubectl** configuration to use the newly created EKS cluster.
+  
+```bash
+aws eks --region your-region update-kubeconfig --name your-cluster-name
+```
+
+3. **Deploy on EKS:**
+- Follow the "Getting Started" steps to deploy the Vue.js app on the provisioned EKS cluster.
+
+
+### Contributing
+
+Feel free to contribute by opening issues, providing feedback, or submitting pull requests.
