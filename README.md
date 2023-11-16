@@ -39,21 +39,22 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 | ![webapp_checkout-page](assets/checkoutpage.png)      | ![webapp_payment-page](assets/paymentpage.png)              |
 
 
-
+\
+\
 ![webapp_success](assets/ordersuccessfulpage.png) 
 
 <p align="center">
 <strong>Fig.8: Order Successful Page
 </p>
-
+\
 
 ![webapp_cloud-deploy](assets/cloud_deploy.png)   
 
 <p align="center">
 <strong>Fig.9: Cloud Deployment on AWS</strong>
 </p>
-
-
+\
+\
 
 ### Project Structure
 
@@ -63,7 +64,8 @@ ii) backend: Contains the Javascript files for backend with ExpressJs, Axios and
 
 iii) kubernetes and DockerCompose files in root folder: DockerCompose file to connect and run all dockerfiles at once and Kubernetes files to orchastrate container CRUD actions.
 
-
+\
+\
 ### Prerequisites
 
 Node.js and npm for Vue.js app development.
