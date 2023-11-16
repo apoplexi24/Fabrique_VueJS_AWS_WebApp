@@ -14,7 +14,8 @@ Kubernetes Orchestration: Kubernetes is employed to orchestrate the containers. 
 AWS Cloud Deployment: The entire solution is designed to be deployed on AWS cloud. Kubernetes clusters are provisioned on AWS using Amazon Elastic Kubernetes Service (EKS), ensuring scalability and reliability.
 
 
-### Project Images:
+### Project Images
+
 
 
 ![Screenshot (236)](https://github.com/apoplexi24/cloud_specialization_project/assets/78611218/b48bd846-72b3-48a1-b95f-eb1912e14dd9)
