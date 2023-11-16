@@ -38,8 +38,7 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 | ----------------------------------------------------- | ----------------------------------------------------------- |
 | ![webapp_checkout-page](assets/checkoutpage.png)      | ![webapp_payment-page](assets/paymentpage.png)              |
 
-<br/>
-<br/>
+
 
 ![webapp_success](assets/ordersuccessfulpage.png) 
 
