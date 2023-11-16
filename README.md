@@ -47,6 +47,7 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 </p>
 &nbsp;
 &nbsp;
+  
 ![webapp_cloud-deploy](assets/cloud_deploy.png)   
 
 <p align="center">
