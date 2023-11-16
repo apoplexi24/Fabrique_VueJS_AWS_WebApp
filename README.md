@@ -19,7 +19,10 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 
 ![Screenshot (236)](https://github.com/apoplexi24/cloud_specialization_project/assets/78611218/b48bd846-72b3-48a1-b95f-eb1912e14dd9)
 
-**Fig.1: Figma Design of the Shopping WebApp**
+<p align="center">
+<strong>Fig.1: Figma Design of the Shopping WebApp</strong>
+</p>
+
 
 
 | Fig.2: Home Page                                      | Fig.3: Login Page                             |
@@ -39,10 +42,15 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 | ![webapp_success](assets/ordersuccessfulpage.png)     |         
 
 
+
 ![webapp_cloud-deploy](assets/cloud_deploy.png)   
+
 <p align="center">
-**Fig.10: Cloud Deployment on AWS**  
+<strong>Fig.10: Cloud Deployment on AWS</strong>
 </p>
+
+
+
 ### Project Structure
 
 i) frontend: Contains the Vue.js frontend for the shopping web application and DockerFiles running Nginx server and Node runtime.
