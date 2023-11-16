@@ -29,7 +29,7 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 | ----------------------------------------------------- | --------------------------------------------- |
 | ![webapp_home-page](assets/homepage.png)              | ![webapp_login-page](assets/loginpage.png)    |
 
-| Fig.4: Product Page (Mens)                            | Fig.4: Product Detail Page                                  |
+| Fig.4: Product Page (Mens)                            | Fig.5: Product Detail Page                                  |
 | ----------------------------------------------------- | ----------------------------------------------------------- |
 | ![webapp_product-page](assets/productpage.png)        | ![webapp_product-detail-page](assets/productdetail.png)     |
 
