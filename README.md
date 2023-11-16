@@ -14,6 +14,30 @@ Kubernetes Orchestration: Kubernetes is employed to orchestrate the containers. 
 AWS Cloud Deployment: The entire solution is designed to be deployed on AWS cloud. Kubernetes clusters are provisioned on AWS using Amazon Elastic Kubernetes Service (EKS), ensuring scalability and reliability.
 
 
+### Project Images:
+
+![Screenshot (236)](https://github.com/apoplexi24/cloud_specialization_project/assets/78611218/b48bd846-72b3-48a1-b95f-eb1912e14dd9)
+
+**Fig.1: Figma Design of the Shopping WebApp**
+
+
+| Fig.2: Home Page                                      | Fig.3: Login Page                             |
+| ----------------------------------------------------- | --------------------------------------------- |
+| ![webapp_home-page](assets/homepage.png)              | ![webapp_login-page](assets/loginpage.png)    |
+
+| Fig.4: Product Page (Mens)                            | Fig.4: Product Detail Page                                  |
+| ----------------------------------------------------- | ----------------------------------------------------------- |
+| ![webapp_product-page](assets/productpage.png)        | ![webapp_product-detail-page](assets/productdetail.png)     |
+
+| Fig.6: Cart Checkout Page                             | Fig.7: Payment Page                                         |
+| ----------------------------------------------------- | ----------------------------------------------------------- |
+| ![webapp_checkout-page](assets/checkoutpage.png)      | ![webapp_payment-page](assets/paymentpage.png)              |
+
+| Fig.8: Order Successful Page                          | Fig.10: Cloud Deployment on AWS                             |
+| ----------------------------------------------------- | ----------------------------------------------------------- |
+| ![webapp_success](assets/ordersuccessfulpage.png)     | ![webapp_cloud-deploy](assets/cloud_deploy.png)             |
+
+
 ### Project Structure
 
 i) frontend: Contains the Vue.js frontend for the shopping web application and DockerFiles running Nginx server and Node runtime.
