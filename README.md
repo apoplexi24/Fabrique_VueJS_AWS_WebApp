@@ -1,10 +1,10 @@
 # Vue.js Shopping Web App with Docker and Kubernetes on AWS
 
 This project showcases the development, containerization, orchestration using Kubernetes, and deployment of a Vue.js shopping web application on AWS cloud.
-
-
+&nbsp;
+&nbsp;
 ### Overview
-
+&nbsp;
 Vue.js Shopping Web App: The project includes a simple yet powerful Vue.js shopping web application. The app allows users to sign in, browse products, add items to the cart, and proceed to checkout.
 
 Docker Containerization: The application is containerized using Docker, making it easy to package and deploy consistently across different environments.
@@ -12,11 +12,10 @@ Docker Containerization: The application is containerized using Docker, making i
 Kubernetes Orchestration: Kubernetes is employed to orchestrate the containers. The deployment, scaling, and management of the Vue.js app are handled seamlessly through Kubernetes manifests.
 
 AWS Cloud Deployment: The entire solution is designed to be deployed on AWS cloud. Kubernetes clusters are provisioned on AWS using Amazon Elastic Kubernetes Service (EKS), ensuring scalability and reliability.
-
-
+&nbsp;
+&nbsp;
 ### Project Images
-
-
+&nbsp;
 
 ![Screenshot (236)](https://github.com/apoplexi24/cloud_specialization_project/assets/78611218/b48bd846-72b3-48a1-b95f-eb1912e14dd9)
 
@@ -39,22 +38,23 @@ AWS Cloud Deployment: The entire solution is designed to be deployed on AWS clou
 | ![webapp_checkout-page](assets/checkoutpage.png)      | ![webapp_payment-page](assets/paymentpage.png)              |
 
 
-\
-\
+&nbsp;
+&nbsp;
 ![webapp_success](assets/ordersuccessfulpage.png) 
 
 <p align="center">
 <strong>Fig.8: Order Successful Page
 </p>
-\
-
+&nbsp;
+&nbsp;
 ![webapp_cloud-deploy](assets/cloud_deploy.png)   
 
 <p align="center">
 <strong>Fig.9: Cloud Deployment on AWS</strong>
 </p>
-\
-\
+
+&nbsp;
+&nbsp;
 
 ### Project Structure
 
@@ -64,15 +64,16 @@ ii) backend: Contains the Javascript files for backend with ExpressJs, Axios and
 
 iii) kubernetes and DockerCompose files in root folder: DockerCompose file to connect and run all dockerfiles at once and Kubernetes files to orchastrate container CRUD actions.
 
-\
-\
+&nbsp;
+&nbsp;
 ### Prerequisites
 
 Node.js and npm for Vue.js app development.
 Docker installed for containerization.
 kubectl installed for Kubernetes deployment.
 AWS CLI and an AWS account for provisioning EKS clusters.
-
+&nbsp;
+&nbsp;
 ### Getting Started
 
 1. **Clone the Repository:**
